@@ -6,4 +6,6 @@ import sys
 print(sys.executable)
 !{sys.executable} -m pip install altair 
 I also needed to download the jupyter_bokeh library which can be done with the following command:
-pip install jupyter_bokeh
+pip install jupyter_bokeh. (This may not have been the issue)
+I had to update the panel version I was using to the following: 
+pip install panel==0.14.1
